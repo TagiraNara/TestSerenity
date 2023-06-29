@@ -13,7 +13,7 @@ Feature: Open the page
     Given user opens browser on page object platformPage
 
   @environment=dev @environment=test
-  Scenario: user opens a platform page 1
+  Scenario: user opens a main page
     Given user opens browser on page object mainPage
 
 

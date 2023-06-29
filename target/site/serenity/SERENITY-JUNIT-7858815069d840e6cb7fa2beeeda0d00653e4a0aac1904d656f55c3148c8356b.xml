@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Open the page" skipped="1" tests="3" time="10.17" timestamp="2023-06-29 02:31:34"><testcase name="user opens a platform page"/><testcase name="user opens main page"><compromised message="No page defined with the name 'null'" type="net.serenitybdd.screenplay.actions.UnknownPageException">No page defined with the name 'null'</compromised><system-err>No page defined with the name 'null'
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Open the page" skipped="1" tests="4" time="7.74" timestamp="2023-06-29 05:00:25"><testcase name="user opens a platform page"/><testcase name="user opens main page"><compromised message="No page defined with the name 'null'" type="net.serenitybdd.screenplay.actions.UnknownPageException">No page defined with the name 'null'</compromised><system-err>No page defined with the name 'null'
 steps.BasicSteps.userWantsToOpenThePage(BasicSteps.java:31)
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 io.cucumber.java.Invoker.invoke(Invoker.java:24)
@@ -21,6 +21,27 @@ io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner
 io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)
 </system-err></testcase><testcase name="user opens a platform page 1"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject
 steps.BasicSteps.userWantsToOpenThePageObjectPlatform(BasicSteps.java:41)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)
+</system-err></testcase><testcase name="user opens a main page"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject
+steps.BasicSteps.userWantsToOpenThePageObjectMainPage(BasicSteps.java:36)
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 io.cucumber.java.Invoker.invoke(Invoker.java:24)
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
