@@ -1,4 +1,4 @@
-Feature: Open the page
+Feature: Open the page with browser
 
   @environment=dev @environment=test
   Scenario: user opens a platform page
@@ -15,6 +15,8 @@ Feature: Open the page
   @environment=dev @environment=test
   Scenario: user opens a main page
     Given user opens browser on page object mainPage
+
+
 
 
 

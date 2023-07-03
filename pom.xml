@@ -344,7 +344,7 @@
         <profile>
             <id>main</id>
             <properties>
-                <include>**/tests/OpenPageTest.java</include>
+                <include>**/tests/**</include>
             </properties>
         </profile>
         <profile>
