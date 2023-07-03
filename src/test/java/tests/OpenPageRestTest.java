@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/Open.feature",
+        features = "src/test/resources/features/OpenRest.feature",
         glue = {"steps"}
         )
-public class OpenPageTest {
+public class OpenPageRestTest {
 
 }

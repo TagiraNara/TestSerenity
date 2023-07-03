@@ -6,3 +6,5 @@
 .gradle
 deployment-instructions/.tmp/
 *.DS_Store
+/target/
+target/site/serenity/browser-chrome.properties

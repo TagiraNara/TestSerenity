@@ -1,12 +1,4 @@
-Feature: Open the page
-
-  @environment=dev
-  Scenario: user gets the platform page 1
-    Given user gets a page named "platform.pay.url"
-
-  @environment=dev
-  Scenario: user gets the platform page 2
-    Given user gets a page named "platform.pay.url"
+Feature: Open the page with browser
 
   @environment=dev @environment=test
   Scenario: user opens a platform page
