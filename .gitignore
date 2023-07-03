@@ -6,3 +6,4 @@
 .gradle
 deployment-instructions/.tmp/
 *.DS_Store
+/target/
